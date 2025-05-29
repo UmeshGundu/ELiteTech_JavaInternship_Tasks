@@ -6,7 +6,7 @@ import org.json.JSONObject;
 
 public class WeatherClient {
     public static void main(String[] args) throws Exception {
-        String apiKey = "your_api_key"; // Use a real API key
+        String apiKey = "44476bd064bf635bd89587024fee73b2"; // Use a real API key
         String city = "London";
         String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 
